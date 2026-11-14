@@ -1,0 +1,33 @@
+name: Build EXE Windows
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pasang PyInstaller dan Pillow
+        run: pip install pyinstaller pillow
+      - name: Bungkus jadi EXE
+        run: pyinstaller --onefile --windowed --name KalkulatorGrafik kalkulator_grafik.py
+      - name: Unggah hasil EXE sebagai artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: KalkulatorGrafik-exe
+          path: dist/KalkulatorGrafik.exe
+      - name: Lampirkan EXE ke Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: exe-build-${{ github.run_number }}
+          name: KalkulatorGrafik EXE (build ${{ github.run_number }})
+          files: dist/KalkulatorGrafik.exe
