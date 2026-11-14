@@ -1,1 +1,40 @@
-IyBLYWxrdWxhdG9yIEdyYWZpawoKQXBsaWthc2kgV2luZG93cyB1bnR1ayBtZW5nZ2FtYmFyIGt1cnZhIHBlcnNhbWFhbiBtYXRlbWF0aWthIGRpIGJpZGFuZwprYXJ0ZXNpdXMgKHRlcmluc3BpcmFzaSBEZXNtb3MpLiBEaXR1bGlzIGRlbmdhbiBQeXRob24gKyBUa2ludGVyIGRhbGFtIHNhdHUKYmVya2FzOiBga2Fsa3VsYXRvcl9ncmFmaWsucHlgLiBUYW5wYSBldmFsIOKAlCBwYXJzZXIgcnVtdXNueWEgZGl0dWxpcyBzZW5kaXJpCmRhbiBhbWFuLgoKIyMgRml0dXIKCi0gQmFueWFrIGZ1bmdzaSBzZWthbGlndXMsIHRpYXAgZnVuZ3NpIGJlcndhcm5hIHNlbmRpcmkgKGtsaWsgdGl0aWsgd2FybmEKICB1bnR1ayBtZW5nZ2FudGkgd2FybmEga3VydmEpLgotIFJ1bXVzIGxlbmdrYXA6IHBhbmdrYXQgYF5gLCBha2FyIGBzcXJ0YCwgYHNpbi9jb3MvdGFuYCwgYGxvZ2AgKGJhc2lzIDEwKSwKICBgbG5gLCBuaWxhaSBtdXRsYWsgYHx4fGAsIGtvbnN0YW50YSBgcGlgIGRhbiBgZWAuCi0gUGVya2FsaWFuIGltcGxpc2l0IGFsYSBEZXNtb3M6IGAyeGAsIGAzKHgrMSlgLCBgeHlgLiBLb21hIGRlc2ltYWwgSW5kb25lc2lhCiAgKGAwLDVgKSBkaXRlcmltYS4KLSBTbGlkZXIgcGFyYW1ldGVyIG90b21hdGlzOiBodXJ1ZiBzZWxhaW4geCAobWlzLiBgYSp4ICsgYmApIG1lbmphZGkKICBwZW5nZ2VzZXIgeWFuZyBtZW5nZ2VyYWtrYW4ga3VydmEgc2VjYXJhIGxhbmdzdW5nLgotIFRpdGlrIGRpY2FyaSBzZW5kaXJpIG9sZWggcHJvZ3JhbTogdGl0aWsgcG90b25nIHN1bWJ1IFggZGFuIFksIHRpdGlrIHBvdG9uZwogIGFudGFyIGt1cnZhLCBkYW4gdGFiZWwgdGl0aWsgKHgsIHkpIOKAlCBzZW11YSBqdWdhIHRhbXBpbCBzZWJhZ2FpIHRla3MgZGkKICBwYW5lbCAiVGl0aWsgJiBBbmFsaXNpcyIgKGJpc2EgZGlzYWxpbikuCi0gS3VydmEgdHVydW5hbiBmJyh4KSBwZXIgZnVuZ3NpICh0b21ib2wgZuKAsiksIHpvb20gKHRvbWJvbC9zY3JvbGwpLCBnZXNlcgogIGJpZGFuZyAoZHJhZyksIHNpbXBhbiBncmFmaWsgc2ViYWdhaSBQTkcuCi0gTWVudSAiQ29udG9oIFJ1bXVzIiBiZXJpc2kgY29udG9oIHNpYXAgcGFrYWkuCgojIyBNZW5qYWxhbmthbiBkYXJpIHN1bWJlcgoKQnV0dWggUHl0aG9uIDMuMTArIChUa2ludGVyIHN1ZGFoIGJhd2FhbikuIFVudHVrIGVrc3BvciBQTkcgcGFzYW5nIFBpbGxvdzoKCmBgYApwaXAgaW5zdGFsbCBwaWxsb3cKcHl0aG9uIGthbGt1bGF0b3JfZ3JhZmlrLnB5CmBgYAoKIyMgTWVtYnVhdCAuZXhlIFdpbmRvd3MKClJlcG8gaW5pIHB1bnlhIEdpdEh1YiBBY3Rpb25zIChgLmdpdGh1Yi93b3JrZmxvd3MvYnVpbGQtZXhlLnltbGApOiBzZXRpYXAKcHVzaCBrZSBgbWFpbmAgKGF0YXUgamFsYW5rYW4gbWFudWFsIGRhcmkgdGFiIEFjdGlvbnMpIGFrYW4gbWVtYnVpbGQKYEthbGt1bGF0b3JHcmFmaWsuZXhlYCBkaSBtZXNpbiBXaW5kb3dzIGRhbiBtZW55ZWRpYWthbm55YSBzZWJhZ2FpIGFydGlmYWN0CmBLYWxrdWxhdG9yR3JhZmlrLWV4ZWAgeWFuZyBiaXNhIGRpdW5kdWguIEVYRS1ueWEgc2F0dSBiZXJrYXMsIHBvcnRhYmxlIOKAlAprbGlrIGR1YSBrYWxpIGxhbmdzdW5nIGphbGFuLCB0YW5wYSBpbnN0YWwgUHl0aG9uLgo=
+# Kalkulator Grafik
+
+Aplikasi Windows untuk menggambar kurva persamaan matematika di bidang
+kartesius (terinspirasi Desmos). Ditulis dengan Python + Tkinter dalam satu
+berkas: `kalkulator_grafik.py`. Tanpa eval — parser rumusnya ditulis sendiri
+dan aman.
+
+## Fitur
+
+- Banyak fungsi sekaligus, tiap fungsi berwarna sendiri (klik titik warna
+  untuk mengganti warna kurva).
+- Rumus lengkap: pangkat `^`, akar `sqrt`, `sin/cos/tan`, `log` (basis 10),
+  `ln`, nilai mutlak `|x|`, konstanta `pi` dan `e`.
+- Perkalian implisit ala Desmos: `2x`, `3(x+1)`, `xy`. Koma desimal Indonesia
+  (`0,5`) diterima.
+- Slider parameter otomatis: huruf selain x (mis. `a*x + b`) menjadi
+  penggeser yang menggerakkan kurva secara langsung.
+- Titik dicari sendiri oleh program: titik potong sumbu X dan Y, titik potong
+  antar kurva, dan tabel titik (x, y) — semua juga tampil sebagai teks di
+  panel "Titik & Analisis" (bisa disalin).
+- Kurva turunan f'(x) per fungsi (tombol f′), zoom (tombol/scroll), geser
+  bidang (drag), simpan grafik sebagai PNG.
+- Menu "Contoh Rumus" berisi contoh siap pakai.
+
+## Menjalankan dari sumber
+
+Butuh Python 3.10+ (Tkinter sudah bawaan). Untuk ekspor PNG pasang Pillow:
+
+```
+pip install pillow
+python kalkulator_grafik.py
+```
+
+## Membuat .exe Windows
+
+Repo ini punya GitHub Actions (`.github/workflows/build-exe.yml`): setiap
+push ke `main` (atau jalankan manual dari tab Actions) akan membuild
+`KalkulatorGrafik.exe` di mesin Windows dan menyediakannya sebagai artifact
+`KalkulatorGrafik-exe` yang bisa diunduh. EXE-nya satu berkas, portable —
+klik dua kali langsung jalan, tanpa instal Python.
